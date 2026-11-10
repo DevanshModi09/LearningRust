@@ -1,0 +1,55 @@
+
+# ==================================
+# Rust build outputs (all projects)
+# ==================================
+target/
+**/target/
+
+# ==================================
+# Rust backup files
+# ==================================
+**/*.rs.bk
+**/*.rs~
+
+# ==================================
+# Environment variables and secrets
+# ==================================
+.env
+.env.*
+!.env.example
+
+# ==================================
+# IDE and editor files
+# ==================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+Session.vim
+
+# ==================================
+# Operating system files
+# ==================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==================================
+# Logs and temporary files
+# ==================================
+*.log
+*.tmp
+*.temp
+
+# ==================================
+# Coverage and profiling
+# ==================================
+*.profraw
+*.profdata
+coverage/
+
