@@ -6,11 +6,12 @@ fn main() {
     } else {
         println!("condition was false");
     }
-    loop {
-        print!("hellow");
-        break;
-    } //Infinite Loop;
-    main2();
+    let mut x = 23;
+    let mut y = 232;
+
+    let tup = (646, 976);
+    (x, y) = tup;
+    println!("{x} , {y}");
     /*
         if number {
             println!("number was there");
